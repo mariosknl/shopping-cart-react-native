@@ -1,4 +1,7 @@
 {
+  "resolutions": {
+    "react-devtools-core": "4.14.0"
+  },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
     "expo": "^44.0.0",
@@ -16,7 +19,8 @@
     "react-navigation-header-buttons": "^9.0.1",
     "react-navigation-stack": "^2.10.4",
     "react-redux": "^7.2.6",
-    "redux": "^4.1.2"
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
