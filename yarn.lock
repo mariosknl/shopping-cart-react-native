@@ -2508,9 +2508,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.84:
-  version "1.4.85"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.85.tgz#a3666ba42147026b9f34d4d8d4caf0740e80f751"
-  integrity sha512-K9AsQ41WS2bjZUFpRWfvaS4RjEcRCamEkBJN1Z1TQILBfP1H8QnJ9ti0wiLiMv0sRjX3EHKzgs9jDnmGFx2jXg==
+  version "1.4.86"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.86.tgz#90fe4a9787f48d6522957213408e08a8126b2ebc"
+  integrity sha512-EVTZ+igi8x63pK4bPuA95PXIs2b2Cowi3WQwI9f9qManLiZJOD1Lash1J3W4TvvcUCcIR4o/rgi9o8UicXSO+w==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2916,9 +2916,9 @@ find-up@^5.0.0, find-up@~5.0.0:
     path-exists "^4.0.0"
 
 flow-parser@0.*:
-  version "0.173.0"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.173.0.tgz#992539fe87b4448a660ac1c54ffa358301e7110b"
-  integrity sha512-gikomjo+jzdehhOCHP2Ca5y1HGK3jkODhUdTxk4a3SdyLAMBsEwb7KJETHzB4KQs7HhHcqhyT7mGmd9iT8B5Hg==
+  version "0.174.0"
+  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.174.0.tgz#547e0e5521bc56944148ec71e2037912c1af85bc"
+  integrity sha512-3EwYkq+vmjg7w6htm7lbosxjdsf5H+bWZXcKlg660UJRO1NoczKeYIxCU6hZqkfwsz0vjUDPH9isRRVmSm0Vag==
 
 flow-parser@^0.121.0:
   version "0.121.0"
@@ -4799,6 +4799,11 @@ react-native@0.64.3:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
     ws "^6.1.4"
+
+react-navigation-drawer@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-2.7.2.tgz#3080804cb3133e33ddce7802c9a150ff1e4b90ea"
+  integrity sha512-AZgluZ8txCG+MrITF+VuHYAnnLaUQw/HvxHKWrAngy/CbmyEIgXEowvShCKMZDMa7PUtKY5+xuwgQtniGgGKsg==
 
 react-navigation-header-buttons@^9.0.1:
   version "9.0.1"
