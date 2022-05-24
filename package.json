@@ -31,7 +31,7 @@
     "redux-thunk": "2.4.1"
   },
   "devDependencies": {
-    "@babel/core": "7.17.10"
+    "@babel/core": "7.18.0"
   },
   "scripts": {
     "start": "expo start",
