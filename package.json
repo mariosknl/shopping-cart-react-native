@@ -1,6 +1,6 @@
 {
   "resolutions": {
-    "react-devtools-core": "4.24.6"
+    "react-devtools-core": "4.24.7"
   },
   "dependencies": {
     "@expo/vector-icons": "13.0.0",
