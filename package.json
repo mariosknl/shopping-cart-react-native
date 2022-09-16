@@ -6,7 +6,7 @@
     "@expo/vector-icons": "13.0.0",
     "@react-native-async-storage/async-storage": "1.17.10",
     "@react-native-community/masked-view": "0.1.11",
-    "@react-navigation/native": "6.0.12",
+    "@react-navigation/native": "6.0.13",
     "expo": "46.0.10",
     "expo-app-loading": "2.1.0",
     "expo-font": "10.2.0",
