@@ -29,7 +29,7 @@
     "redux-thunk": "2.4.2"
   },
   "devDependencies": {
-    "@babel/core": "7.20.7"
+    "@babel/core": "7.20.12"
   },
   "scripts": {
     "start": "expo start",
