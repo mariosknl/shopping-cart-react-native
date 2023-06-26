@@ -5041,7 +5041,7 @@ internal-ip@4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-invariant@*, invariant@>=2, invariant@^2.2.4:
+invariant@*, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -6779,10 +6779,10 @@ react-native-safe-area-view@^0.14.9:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-react-native-screens@3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-3.20.0.tgz#4d154177395e5541387d9a05bc2e12e54d2fb5b1"
-  integrity sha512-joWUKWAVHxymP3mL9gYApFHAsbd9L6ZcmpoZa6Sl3W/82bvvNVMqcfP7MeNqVCg73qZ8yL4fW+J/syusHleUgg==
+react-native-screens@3.22.0:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-3.22.0.tgz#7d892baf964fddb642b5eec71a09e2aeb501e578"
+  integrity sha512-csLypBSXIt/egh37YJmokETptZJCtZdoZBsZNLR9n31GesDyVogprT+MM22dEPDuxPxt/mFWq+lSpVwk7khuTw==
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
@@ -6848,12 +6848,12 @@ react-navigation-drawer@2.7.2:
   resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-2.7.2.tgz#3080804cb3133e33ddce7802c9a150ff1e4b90ea"
   integrity sha512-AZgluZ8txCG+MrITF+VuHYAnnLaUQw/HvxHKWrAngy/CbmyEIgXEowvShCKMZDMa7PUtKY5+xuwgQtniGgGKsg==
 
-react-navigation-header-buttons@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-header-buttons/-/react-navigation-header-buttons-10.0.0.tgz#a685352dfa6a6c62df7c81a5599ecbb37fe7bf43"
-  integrity sha512-45jLyyMB/2uMmDm+SWcUrDJLXxiVeaVtbHf1cgmzt4eS/C1AxOyG1pimIFxQK8EoDbZDV24mqAX13/UCwqhWpw==
+react-navigation-header-buttons@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/react-navigation-header-buttons/-/react-navigation-header-buttons-11.0.0.tgz#4d1c81e13c33b0e65a12ac1c62184331b5b5c2d2"
+  integrity sha512-1dBX7hSSLR/P0N5pPs/4azX0uHWvQsGpopzMwm9WSe/s4Q2mb1KiA/hV5uO4JC1QTLAkIk/O12OGmMu5nnFoRQ==
   dependencies:
-    invariant ">=2"
+    react-to-imperative "^0.2.0"
 
 react-navigation-stack@2.10.4:
   version "2.10.4"
@@ -6871,10 +6871,10 @@ react-navigation@4.4.4:
     "@react-navigation/core" "^3.7.9"
     "@react-navigation/native" "^3.8.4"
 
-react-redux@8.0.7:
-  version "8.0.7"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.0.7.tgz#b74ef2f7ce2076e354540aa3511d3670c2b62571"
-  integrity sha512-1vRQuCQI5Y2uNmrMXg81RXKiBHY3jBzvCvNmZF437O/Z9/pZ+ba2uYHbemYXb3g8rjsacBGo+/wmfrQKzMhJsg==
+react-redux@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.1.1.tgz#8e740f3fd864a4cd0de5ba9cdc8ad39cc9e7c81a"
+  integrity sha512-5W0QaKtEhj+3bC0Nj0NkqkhIv8gLADH/2kYFMTHxCVqQILiWzLv6MaLuV5wJU3BQEdHKzTfcvPN0WMS6SC1oyA==
   dependencies:
     "@babel/runtime" "^7.12.1"
     "@types/hoist-non-react-statics" "^3.3.1"
@@ -6895,6 +6895,11 @@ react-shallow-renderer@^16.15.0:
   dependencies:
     object-assign "^4.1.1"
     react-is "^16.12.0 || ^17.0.0 || ^18.0.0"
+
+react-to-imperative@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-to-imperative/-/react-to-imperative-0.2.0.tgz#b5f1603a6aba352ae37b6c4ddec0759956b4c063"
+  integrity sha512-MK5hZlTkgz7yk3MZLIxoDa75d9wxAecLS6y6HPD8C/rwdv/2Zezisbs8TzEq9azkHiII9UEQJTTlSlKdiq9xsg==
 
 react@18.2.0:
   version "18.2.0"
