@@ -2140,16 +2140,16 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/cli@0.10.9":
-  version "0.10.9"
-  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.10.9.tgz#f8906855940c766a180bc33315bb08079c8efbd0"
-  integrity sha512-aK/2ZPC01rD7H4zDiM+GQHorjrOhgo0I+6AGht7RUL3M022TnarlLVc6KJDhVCMeXLaPuerJrsEJm5Hvgl1mNw==
+"@expo/cli@0.10.11":
+  version "0.10.11"
+  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.10.11.tgz#d4fa73e5629b9de71a9ba4bc517e6c910e99b529"
+  integrity sha512-ehaAOw4SwkJ9uL5z9c3RD4LJpmMDCXZBCWZG4fonUGutks4t/GLoNRcdENkWsf6NSgkdPNgNl8KwphU1p083PQ==
   dependencies:
     "@babel/runtime" "^7.20.0"
     "@expo/code-signing-certificates" "0.0.5"
     "@expo/config" "~8.1.0"
     "@expo/config-plugins" "~7.2.0"
-    "@expo/dev-server" "0.5.4"
+    "@expo/dev-server" "0.5.5"
     "@expo/devcert" "^1.0.0"
     "@expo/env" "0.0.5"
     "@expo/json-file" "^8.2.37"
@@ -2268,7 +2268,23 @@
   version "49.0.0"
   resolved "https://registry.yarnpkg.com/@expo/config-types/-/config-types-49.0.0.tgz#15ffef715285c06703f6fb7ec0cda853f645cc09"
   integrity sha512-8eyREVi+K2acnMBe/rTIu1dOfyR2+AMnTLHlut+YpMV9OZPdeKV0Bs9BxAewGqBA2slslbQ9N39IS2CuTKpXkA==
+  dependencies:
+    "@babel/code-frame" "~7.10.4"
+    "@expo/config-plugins" "~7.2.0"
+    "@expo/config-types" "^49.0.0-alpha.1"
+    "@expo/json-file" "^8.2.37"
+    getenv "^1.0.0"
+    glob "7.1.6"
+    require-from-string "^2.0.2"
+    resolve-from "^5.0.0"
+    semver "7.5.3"
+    slugify "^1.3.4"
+    sucrase "^3.20.0"
 
+"@expo/config@8.1.2", "@expo/config@~8.1.0":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@expo/config/-/config-8.1.2.tgz#7fff28b3acefe39702e9f3ce1c9fd896a52caa80"
+  integrity sha512-4e7hzPj50mQIlsrzOH6XZ36O094mPfPTIDIH4yv49bWNMc7GFLTofB/lcT+QyxiLaJuC0Wlk9yOLB8DIqmtwug==
   dependencies:
     "@babel/code-frame" "~7.10.4"
     "@expo/config-plugins" "~7.2.0"
@@ -2299,23 +2315,6 @@
     slugify "^1.3.4"
     sucrase "^3.20.0"
 
-"@expo/config@~8.0.0":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@expo/config/-/config-8.0.2.tgz#53ecfa9bafc97b990ff9e34e210205b0e3f05751"
-  integrity sha512-WubrzTNNdAXy1FU8TdyQ7D9YtDj2tN3fWXDq+C8In+nB7Qc08zwH9cVdaGZ+rBVmjFZBh5ACfObKq/m9cm4QQA==
-  dependencies:
-    "@babel/code-frame" "~7.10.4"
-    "@expo/config-plugins" "~6.0.0"
-    "@expo/config-types" "^48.0.0"
-    "@expo/json-file" "^8.2.37"
-    getenv "^1.0.0"
-    glob "7.1.6"
-    require-from-string "^2.0.2"
-    resolve-from "^5.0.0"
-    semver "7.3.2"
-    slugify "^1.3.4"
-    sucrase "^3.20.0"
-
 "@expo/configure-splash-screen@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@expo/configure-splash-screen/-/configure-splash-screen-0.6.0.tgz#07d97ee512fd859fcc09506ba3762fd6263ebc39"
@@ -2330,10 +2329,10 @@
     xcode "^3.0.0"
     xml-js "^1.6.11"
 
-"@expo/dev-server@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@expo/dev-server/-/dev-server-0.5.4.tgz#de60dff310e32f24e8beb54ed5505bf0a03dbf08"
-  integrity sha512-+4CxCWq+lLIiOtO6r1CErU9U4irepBJbXUMzeQ3Vik9FEkuhMwSHHHAxxOB+VmD5IuomubUY3RVMUzEWABIouw==
+"@expo/dev-server@0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@expo/dev-server/-/dev-server-0.5.5.tgz#33f9065e0cf5f36ac61944a92d11390cc71b7035"
+  integrity sha512-t0fT8xH1exwYsH5hh7bAt85VF+gXxg24qrbny2rR/iKoPTWFCd2JNQV8pvfLg51hvrywQ3YCBuT3lU1w7aZxFA==
   dependencies:
     "@expo/bunyan" "4.0.0"
     "@expo/metro-config" "~0.10.0"
@@ -4517,13 +4516,7 @@ expo-file-system@~15.4.0, expo-file-system@~15.4.2:
   dependencies:
     uuid "^3.4.0"
 
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-11.1.1.tgz#268eed407e94f6e88083c01b68c357d010748d23"
-  integrity sha512-X+aICqYY69hiiDDtcNrjq8KutHrH2TrHuMqk0Rfq0P7hF6hMd+YefwLBNkvIrqrgmTAuqiLjMUwj2rHLqmgluw==
-  dependencies:
-    fontfaceobserver "^2.1.0"
-
-expo-font@~11.4.0:
+expo-font@11.4.0, expo-font@~11.4.0:
   version "11.4.0"
   resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-11.4.0.tgz#e2d31c0bb76ba3c37c2d84703a49aeafc3afef28"
   integrity sha512-nkmezCFD7gR/I6R+e3/ry18uEfF8uYrr6h+PdBJu+3dawoLOpo+wFb/RG9bHUekU1/cPanR58LR7G5MEMKHR2w==
@@ -4560,6 +4553,14 @@ expo-modules-core@1.5.4:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
 
+expo-modules-core@1.5.7:
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-1.5.7.tgz#c1e432af590eacc9d8fcb9bdf28abf1db55a54cf"
+  integrity sha512-qdSP/yExeDya2lySJEhP+1DRSyayZ6IlXAT0hA3wao1AUtoz09yM257TUMS05ASihopQhLn520Q6yAwrezDsxA==
+  dependencies:
+    compare-versions "^3.4.0"
+    invariant "^2.2.4"
+
 expo-splash-screen@~0.17.0:
   version "0.17.4"
   resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.17.4.tgz#dd85a9ea61580835592d7557f8ab5689d386b2e9"
@@ -4567,7 +4568,6 @@ expo-splash-screen@~0.17.0:
   dependencies:
     "@expo/configure-splash-screen" "^0.6.0"
     "@expo/prebuild-config" "5.0.6"
-
     "@expo/vector-icons" "^13.0.0"
     babel-preset-expo "~9.5.0"
     expo-application "~5.3.0"
@@ -4578,6 +4578,32 @@ expo-splash-screen@~0.17.0:
     expo-keep-awake "~12.3.0"
     expo-modules-autolinking "1.5.0"
     expo-modules-core "1.5.4"
+    fbemitter "^3.0.0"
+    invariant "^2.2.4"
+    md5-file "^3.2.3"
+    node-fetch "^2.6.7"
+    pretty-format "^26.5.2"
+    uuid "^3.4.0"
+
+expo@49.0.4:
+  version "49.0.4"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-49.0.4.tgz#1d9fb95644399dca02272795e9e438bb688dc7dc"
+  integrity sha512-52FUpEYDLL8G+pFjR8H7a2W6XgjX9RlBF36bFMyrfHdwxURu/pMR/C2SBSDQZRao43+urL8soX8c7iwtPN696A==
+  dependencies:
+    "@babel/runtime" "^7.20.0"
+    "@expo/cli" "0.10.11"
+    "@expo/config" "8.1.2"
+    "@expo/config-plugins" "7.2.5"
+    "@expo/vector-icons" "^13.0.0"
+    babel-preset-expo "~9.5.0"
+    expo-application "~5.3.0"
+    expo-asset "~8.10.1"
+    expo-constants "~14.4.2"
+    expo-file-system "~15.4.2"
+    expo-font "~11.4.0"
+    expo-keep-awake "~12.3.0"
+    expo-modules-autolinking "1.5.0"
+    expo-modules-core "1.5.7"
     fbemitter "^3.0.0"
     invariant "^2.2.4"
     md5-file "^3.2.3"
