@@ -16,7 +16,7 @@
     "react-dom": "18.2.0",
     "react-native": "0.73.5",
     "react-native-safe-area-context": "4.9.0",
-    "react-native-dotenv": "3.4.10",
+    "react-native-dotenv": "3.4.11",
     "react-native-screens": "3.29.0",
     "react-navigation": "5.0.0",
     "react-native-web": "0.19.10",
