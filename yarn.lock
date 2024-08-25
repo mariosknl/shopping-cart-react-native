@@ -8182,10 +8182,10 @@ react-navigation-drawer@2.7.2:
   resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-2.7.2.tgz#3080804cb3133e33ddce7802c9a150ff1e4b90ea"
   integrity sha512-AZgluZ8txCG+MrITF+VuHYAnnLaUQw/HvxHKWrAngy/CbmyEIgXEowvShCKMZDMa7PUtKY5+xuwgQtniGgGKsg==
 
-react-navigation-header-buttons@12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-header-buttons/-/react-navigation-header-buttons-12.0.0.tgz#9af39f33bca4a8680c357c105c8d7bcdb3ff9765"
-  integrity sha512-U1zyJtv7UleGOkWtPTtRf8r/GOmMGyi2NZTvd/mPmDbHqgYOi94HwioY9hEpXF8bDp8Syv2dqnUfgzYAsrDHfg==
+react-navigation-header-buttons@12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-header-buttons/-/react-navigation-header-buttons-12.0.1.tgz#784aa196776142872fe93091fd486fe6af9729cb"
+  integrity sha512-bFtSFU7z5KVuAawdvv5/HMPDGQEuZyQNtZaKyvsRvePGVhpifPbgZwav/pB8riu6FCIpaicXpNjXm3rty0Ah7g==
   dependencies:
     react-to-imperative "^0.2.0"
 
