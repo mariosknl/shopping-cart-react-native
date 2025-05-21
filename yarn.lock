@@ -7084,10 +7084,10 @@ rc@~1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-devtools-core@6.1.1, react-devtools-core@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-6.1.1.tgz#7dac74773d039273134c360f8b65cf4f6c795c49"
-  integrity sha512-TFo1MEnkqE6hzAbaztnyR5uLTMoz6wnEWwWBsCUzNt+sVXJycuRJdDqvL078M4/h65BI/YO5XWTaxZDWVsW0fw==
+react-devtools-core@6.1.2, react-devtools-core@^6.1.1:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-6.1.2.tgz#bf4030c4012be8a9201dc1f8a36238c9a5078c98"
+  integrity sha512-ldFwzufLletzCikNJVYaxlxMLu7swJ3T2VrGfzXlMsVhZhPDKXA38DEROidaYZVgMAmQnIjymrmqto5pyfrwPA==
   dependencies:
     shell-quote "^1.6.1"
     ws "^7"
