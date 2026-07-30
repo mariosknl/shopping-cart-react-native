@@ -6886,10 +6886,10 @@ react-is@^19.1.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.1.0.tgz#805bce321546b7e14c084989c77022351bbdd11b"
   integrity sha512-Oe56aUPnkHyyDxxkvqtd7KkdQP5uIUfHxd5XTb3wE9d/kRnZLmKbDB0GWk919tdQ+mxxPtG6EAs6RMT6i1qtHg==
 
-react-native-dotenv@3.4.12:
-  version "3.4.12"
-  resolved "https://registry.yarnpkg.com/react-native-dotenv/-/react-native-dotenv-3.4.12.tgz#2be9630755c3dbd3cf7899974e4ef447f36754df"
-  integrity sha512-CEHSiLTaE1vwW/TgI5CIp/AXi2/O2Lz6oZwbxHGMRNLr50cUXMaR5ThHW/FIFWnrNK5VRCWB2YmFzk6p3csVkg==
+react-native-dotenv@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-dotenv/-/react-native-dotenv-4.1.1.tgz#010670826ce2759a8f11a536b279f033d10f32e3"
+  integrity sha512-Y7aMj6uFa/KJO7AFbUYGvr1YXYlFrVIC0HVhB+mFw2yGgtDrWvnfrpXP7LHX4Zh+xOwsnlZTHOoNrhv/uE9AcA==
   dependencies:
     dotenv "^17.4.2"
 
