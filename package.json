@@ -17,7 +17,7 @@
     "react-native": "0.87.1",
     "react-native-dotenv": "5.0.0",
     "react-native-safe-area-context": "5.10.1",
-    "react-native-screens": "4.28.0",
+    "react-native-screens": "4.30.0",
     "react-navigation": "5.0.0",
     "react-native-web": "0.21.3",
     "react-navigation-drawer": "2.7.2",
