@@ -14,7 +14,7 @@
     "moment": "2.31.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "react-native": "0.87.1",
+    "react-native": "0.88.0",
     "react-native-dotenv": "5.0.0",
     "react-native-safe-area-context": "5.10.1",
     "react-native-screens": "4.28.0",
