@@ -4145,10 +4145,10 @@
   dependencies:
     nanoid "^3.3.11"
 
-"@redux-devtools/extension@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@redux-devtools/extension/-/extension-4.0.0.tgz#bd03401ff0f033350b1f0bfa9b210029c5450627"
-  integrity sha512-pLIzgo5MvqdDLe5D1pzHLgmr8THra/DOyRf5MvOEPZnKKDn6RhFbNSS5oXZ3Cal0cpx08kx7sR6zD8QgoXEnZA==
+"@redux-devtools/extension@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@redux-devtools/extension/-/extension-4.0.1.tgz#b92e9e99b4b58a37b509ec530fb3ff3fe4b2bac4"
+  integrity sha512-XlOnGtsaZgL70JY08ijurR+jCZPu0YVgPgHA5gaOlx3qssMmiV1InRVip39i9C7kVW6v/VfLxLs7YLyZFd7QrQ==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
